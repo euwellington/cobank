@@ -1,0 +1,315 @@
+.pix-header {
+    height: 90vh;
+    width: 100%;
+    background-image: url('../assets/backpix.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.box-header {
+    margin-top: 140px;
+    margin-left: 110px;
+}
+.pix-page-title {
+    color: white;
+    width: 480px;
+    font-weight: 800;
+    font-size: 37pt;
+}
+.pix-page-subtitle {
+    color: white;
+    width: 450px;
+    font-weight: 600;
+    font-size: 18pt;
+    line-height: 27px;
+}
+.logopix {
+    height: 40px;
+}
+.about-pix {
+    color: white;
+    font-weight: 550;
+    transition: 0.5s;
+    width: 140px; font-size: 13pt;
+}
+.about-pix:hover {
+    color: rgba(255, 255, 255, 0.726);
+    cursor: pointer;
+    transition: 0.5s;
+}
+#icon-down {
+    color: white;
+    animation: mymove 1s infinite;
+    font-weight: bold;
+}
+@keyframes mymove {
+    0%   {top: 10px; margin-top: 20px; color: rgb(149, 0, 255); font-size: 13pt;}
+    100% {bottom: 200px; margin-bottom: 20px; color: white; font-size: 13pt;}
+}
+@media(max-width: 1200px) {
+    .pix-header {
+        height: 100vh;
+        width: 100%;
+    }
+    .logopix {
+        margin-top: -100px;
+        margin-bottom: -39px;
+    }
+}
+@media(max-width: 900px) {
+    .pix-header {
+        height: 90vh;
+        width: 100%;
+        background-image: url('../assets/backpix.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: 0px;
+    }
+    .box-header {
+        margin-top: 110px;
+        margin-left: 20px;
+    }
+    .logopix {
+        height: 40px;
+    }
+    .pix-page-title {
+        color: white;
+        width: 270px;
+        font-weight: 800;
+        font-size: 25pt;
+    }
+    .pix-page-subtitle {
+        color: white;
+        width: 100%;
+        font-weight: 600;
+        font-size: 18pt;
+        line-height: 27px;
+        margin-top: -15px
+    }
+}
+/* ABOUT PIX */
+.imgpix {
+    height: 380px;
+    margin-left: -200px;
+}
+.about-pix-page {
+    padding: 140px;
+}
+.about-pix-page-title {
+    width: 580px;
+    font-weight: 630;
+    font-size: 40pt;
+}
+.about-pix-page-subtitle {
+    width: 300px;
+    font-weight: 600;
+    font-size: 15pt;
+    line-height: 27px;
+}
+.icon-pix {
+    color: rgb(149, 0, 255);
+    font-size: 60pt;
+    margin-top: 50px;
+    /* margin-bottom: 40px; */
+    margin-left: 140px;
+}
+.box-info-back {
+    background: rgba(128, 128, 128, 0.045);
+    padding: 30px;
+}
+.box-info-pix {
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 20px;
+}
+.info-pix-title {
+    font-size: 18pt;
+    margin: 0;
+    width: 480px;
+    font-weight: 640;
+}
+.info-pix-subtitle {
+    font-size: 13pt;
+    width: 400px;
+    margin: 0;
+    /* font-weight: 640; */
+}
+@media(max-width: 1200px) {
+    .imgpix {
+        height: 280px;
+        margin-left: -200px;
+        margin-top: 50px
+    }
+    .about-pix-page {
+        padding: 90px;
+    }
+    .about-pix-page-title {
+        width: 580px;
+        font-weight: 630;
+        font-size: 40pt;
+    }
+    .about-pix-page-subtitle {
+        width: 300px;
+        font-weight: 600;
+        font-size: 15pt;
+        line-height: 27px;
+    }
+    .icon-pix {
+        color: rgb(149, 0, 255);
+        font-size: 60pt;
+        margin-top: 50px;
+        /* margin-bottom: 40px; */
+        margin-left: 70px;
+    }
+    .box-info-back {
+        background: rgba(128, 128, 128, 0.045);
+        padding: 20px;
+    }
+    .box-info-pix {
+        margin-left: 10px;
+        margin-top: 30px;
+        padding: 20px;
+    }
+    .info-pix-title {
+        font-size: 18pt;
+        margin: 0;
+        width: 380px;
+        font-weight: 640;
+    }
+    .info-pix-subtitle {
+        font-size: 13pt;
+        width: 300px;
+        margin: 0;
+        /* font-weight: 640; */
+    }
+}
+@media(max-width: 900px) {
+    .imgpix {
+        height: 170px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .about-pix-page {
+        padding: 20px;
+    }
+    .about-pix-page-title {
+        width: 100%;
+        font-weight: 630;
+        font-size: 28pt;
+        margin-top: 70px;
+    }
+    .about-pix-page-subtitle {
+        width: 88%;
+        font-weight: 500;
+        font-size: 15pt;
+        line-height: 27px;
+    }
+    .icon-pix {
+        color: rgb(149, 0, 255);
+        font-size: 60pt;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .box-info-back {
+        background: rgba(128, 128, 128, 0.045);
+        padding: 10px;
+    }
+    .box-info-pix {
+        margin-left: 0px;
+        margin-top: 50px;
+        padding: 0px;
+    }
+    .info-pix-title {
+        font-size: 18pt;
+        margin: 0;
+        width: 100%;
+        font-weight: 640;
+    }
+    .info-pix-subtitle {
+        font-size: 13pt;
+        width: 100%;
+        margin: 0;
+        /* font-weight: 640; */
+    }
+}
+/* APP PIX */
+.app-pix {
+    padding: 10px;
+}
+.apppix {
+    height: 800px;
+}
+.app-pix-title {
+    font-size: 28pt;
+    width: 480px;
+    font-weight: 670;
+    line-height: 42px;
+}
+.app-pix-subtitle {
+    font-size: 14pt;
+    width: 380px;
+    font-weight: 670;
+    line-height: 20px;
+}
+.app-pix-btn {
+    font-size: 13pt;
+    font-weight: 670;
+    color: rgb(149, 0, 255);
+    transition: 0.2s;
+    text-decoration: none;
+}
+.app-pix-btn:hover {
+    cursor: pointer;
+    transform: scale(1.0350);
+    color: rgb(149, 0, 255);
+    transition: 0.2s;
+}
+@media(max-width: 1200px) {
+    .app-pix {
+        padding: 10px;
+    }
+    .apppix {
+        height: 540px;
+    }
+    .app-pix-title {
+        font-size: 28pt;
+        width: 440px;
+        font-weight: 670;
+        line-height: 42px;
+    }
+    .app-pix-subtitle {
+        font-size: 14pt;
+        width: 380px;
+        font-weight: 670;
+        line-height: 20px;
+    }
+}
+@media(max-width: 900px) {
+    .app-pix {
+        padding: 10px;
+    }
+    .apppix {
+        height: 340px;
+    }
+    .app-pix-title {
+        font-size: 28pt;
+        width: 80%;
+        font-weight: 670;
+        line-height: 42px;
+    }
+    .app-pix-subtitle {
+        font-size: 14pt;
+        width: 80%;
+        font-weight: 670;
+        line-height: 20px;
+        
+    }
+    .app-pix-btn {
+        color: white;
+        background: rgb(172, 10, 247);
+        padding: 10px;
+        border-radius: 60px;
+        width: 80%;
+        text-align: center;
+    }
+}

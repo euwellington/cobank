@@ -1,0 +1,190 @@
+.login {
+    background-image: url('../assets/backabout.png');
+    height: 90vh;
+}
+.login-left {
+    display: grid;
+    height: 90vh;
+}
+.login-title {
+    font-size: 30pt;
+    font-weight: 750;
+    width: 350px;
+    line-height: 40px;
+}
+.login-subtitle {
+    font-size: 13pt;
+    font-weight: 550;
+    width: 360px;
+}
+
+.login-right {
+    display: grid;
+    height: 80vh;
+    margin-left: 80px;
+}
+.register-right {
+    display: grid;
+    height: 87vh;
+    margin-left: 80px;
+}
+.box-login {
+    margin: auto;
+    width: 260px;
+    border-radius: 12px;
+    padding: 13px;
+    box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.099);
+}
+.box-login-title {
+    text-align: center;
+    font-weight: 700;
+}
+.box-input {
+    border-left: 2px solid rgb(151, 12, 231);
+    padding-left: 8px;
+    margin-top: 7px;
+}
+.box-input-title {
+    font-size: 10pt;
+    font-weight: 700;
+    margin: 0;
+    margin-left: 10px;
+}
+.input {
+    border: 0;
+}
+.btn-login {
+    padding: 10px;
+    border-radius: 60px;
+    background: rgb(151, 12, 231);
+    color: white;
+    width: 210px;
+    border: 0;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+.btn-login:disabled {
+    padding: 10px;
+    border-radius: 60px;
+    border: 1px solid rgb(151, 12, 231);;
+    color: rgb(151, 12, 231);
+    width: 210px;
+    margin-top: 10px;
+    transition: 0.2s;
+    background: transparent;
+
+}
+
+
+.bar {
+    height: 2px;
+    width: 250px;
+    background: rgba(0, 0, 0, 0.104);
+}
+
+.btn-register {
+    font-weight: 700;
+    margin-top: 0px;
+    color: rgb(151, 12, 231);
+    transition: 0.2s;
+    text-decoration: none;
+}
+.btn-register:hover {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+.success {
+    height: 150px;
+}
+.success-title {
+    font-size: 15pt;
+    font-weight: 650;
+    text-align: center;
+}
+.success-subtitle {
+    font-size: 10pt;
+    text-align: center;
+}
+.btn-accesslogin {
+    padding: 10px;
+    border-radius: 60px;
+    background: rgb(151, 12, 231);
+    color: white;
+    width: 210px;
+    border: 0;
+    margin-top: 10px;
+    transition: 0.2s;
+    text-align: center;
+}
+.btn-accesslogin:hover {
+    color: white;
+}
+
+
+
+@media (max-width: 900px) {
+    .login {
+        background-image: url('../assets/backabout.png');
+        height: 90vh;
+        background-position-y: 50vh;
+    }
+    .login-title {
+        font-size: 24pt;
+        font-weight: 750;
+        width: 100%;
+        line-height: 40px;
+        padding-left: 20px;
+        margin-top: -80px;
+    }
+    .login-subtitle {
+        font-size: 13pt;
+        font-weight: 550;
+        padding-left: 20px;
+        width: 80%;
+    }
+    .bar {
+        margin-left: 20px;
+    }
+    .about-go-login {
+        margin-left: 20px;
+    }
+    .btn-register {
+        margin-left: 20px;
+    }
+    .login-right {
+        display: grid;
+        height: 80vh;
+        margin-left: 0px;
+    }
+    .register-right {
+        display: grid;
+        height: 87vh;
+        margin-left: 0px;
+        width: 95%
+    }
+    .box-login {
+        margin: auto;
+        width: 100%;
+        border-radius: 12px;
+        padding: 13px;
+        box-shadow: 1px 4px 5px rgba(0, 0, 0, 0.099);
+    }
+
+
+    .box-res-app {
+        width: 100%;
+        height: 100vh;
+        display: grid;
+    }
+    .box-res-app-title {
+        width: 90%;
+        text-align: justify;
+        font-size: 10pt;
+        background: rgba(151, 12, 231,0.2);
+        border-radius: 12px;
+        padding: 8px;
+        margin-top: -150px;
+    }
+}

@@ -1,0 +1,95 @@
+.PAccount-title {
+    /* margin-left: 95px; */
+    margin-top: 45px;
+    font-weight: 600;
+    font-size: 15pt;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.user-title {
+    font-size: 9pt;
+    font-weight: 750;
+    margin: 5px;
+    width: 200px;
+}
+.user-content {
+    font-size: 18pt;
+    font-weight: 550;
+    width: 440px;
+    margin: 0;
+    /* padding: 10px;
+    color: white;
+    border-radius: 8px;
+    background: rgb(119, 4, 233);
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.124); */
+    margin-top: 8px;
+}
+.box-accoun {
+    margin: 10px;
+}
+#input-edit3 {
+    width: 300px;
+    transition: 0.2s;
+}
+#input-edit1, #input-edit2, #input-edit4 {
+    color: rgb(117, 4, 245);
+    width: 300px;
+    border: 1px solid rgb(117, 4, 245);
+    background: transparent;
+}
+#input-edit1:hover, #input-edit2:hover, #input-edit4:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    transform: scale(1.0350);
+}
+
+.userinfo-info {
+    margin: 40px;
+    font-size: 10pt;
+    width: 300px;
+    text-align: justify;
+    padding: 14px;
+    background: rgba(116, 4, 245, 0.101);
+    border-radius: 13px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.09);
+}
+
+
+.drawer-account {
+    width: 100%;
+    height: 400px;
+}
+.closedraweruser {
+    height: 30px;
+    width: 30px;
+    border-radius: 60px;
+    color: rgb(116, 4, 245);
+    /* color: white; */
+    font-size: 10pt;
+    position: absolute;
+    right: 30px;
+    transition: 0.2s;
+    top: 20px;
+}
+.closedraweruser:hover {
+    transition: 0.2s;
+    cursor: pointer;
+    transform: scale(1.0350);
+}
+
+#input-select {
+    width: 450px;
+    margin-top: 10px;
+    border: 0;
+    font-size: 35pt;
+}
+
+#btn-save-user {
+    border: 0;
+    width: 400px;
+    background: rgb(117, 4, 245);
+    color: white;
+    padding: 10px;
+    border-radius: 60px;
+    margin-top: 150px;
+}

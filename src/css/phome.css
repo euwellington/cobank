@@ -1,0 +1,92 @@
+.phome {
+    height: 89.5vh;
+}
+/* LEFT */
+.phome-left {
+    width: 78%;
+}
+.popupdiv {
+    padding: 10px;
+    margin: 20px;
+}
+.popup {
+    width: 34vw;
+}
+.location {
+    margin: auto;
+    height: 100px;
+    margin-left: 120px;
+}
+.location-title {
+    font-weight: 750;
+    width: 310px;
+    /* padding-top: 20px; */
+    margin: 0;
+    font-size: 16pt;
+}
+.location-subtitle {
+    font-size: 10pt;
+    margin: 0;
+}
+/* RIGHT */
+.phome-right {
+    width: 22%;
+    display: grid;
+}
+.mapbank {
+    margin-top: -10px;
+    height: 170px;
+}
+.mapbank-title {
+    text-align: center;
+    font-weight: 650;
+    font-size: 14pt;
+}
+.mapbank-subtitle {
+    font-size: 10pt;
+    padding: 20px;
+    background: rgba(147, 3, 243, 0.233);
+    border-radius: 12px;
+    margin: 20px;
+    margin-top: -10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.165);
+}
+.mapbank-btn {
+    font-size: 11pt;
+    padding: 10px;
+    background: rgb(146, 8, 238);
+    border-radius: 60px;
+    color: white;
+    border: 0;
+    transition: 0.2s;
+}
+.mapbank-btn:hover {
+    transform: scale(1.0350);
+    transition: 0.2s;
+}
+
+.errlocation {
+    height: 300px;
+    width: 500px;
+    background: rgb(162, 0, 255);
+    padding: 20px;
+}
+.errlocationimg {
+    height: 140px;
+}
+.errlocation-info {
+    color: white;
+    font-size: 10pt;
+    text-align: center;
+    margin: 23px;
+}
+.mapbankinfo-title {
+    font-size: 13pt;
+    font-weight: 700;
+}
+.mapbankinfo-subtitle {
+    font-size: 10pt;
+    font-weight: 500;
+    width: 200px;
+    text-align: center;
+}

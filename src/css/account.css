@@ -1,0 +1,349 @@
+.account-page-header {
+    width: 100%;
+    height: 90vh;
+    background-image: url('../assets/back2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.account-page-title {
+    color: white;
+    font-size: 17pt;
+    font-weight: 800;
+    margin-top: 70px;
+}
+.account-page-subtitle {
+    color: white;
+    font-size: 30pt;
+    line-height: 50px;
+    font-weight: 600;
+    width: 300px
+}
+@media(max-width: 1200px) {
+    .account-page-header {
+        width: 100%;
+        height: auto;
+        background-image: url('../assets/back2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .account-page-title {
+        color: white;
+        font-size: 17pt;
+        font-weight: 800;
+        margin-top: 70px;
+        margin-left: 30px;
+    }
+    .account-page-subtitle {
+        color: white;
+        margin-left: 30px;
+        font-size: 30pt;
+        font-weight: 600;
+        width: 300px
+    }
+}
+@media(max-width: 900px) {
+    .account-page-header {
+        width: 100%;
+        height: auto;
+        background-image: url('../assets/backaccount.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-position: center right; */
+        background-position-x: -500px;
+    }
+    .account-page-title {
+        color: white;
+        font-size: 16pt;
+        font-weight: 800;
+        margin-top: 50px;
+        line-height: 40px;
+        margin-left: 10px;
+    }
+    .account-page-subtitle {
+        color: white;
+        margin-left: 10px;
+        font-size: 28pt;
+        font-weight: 600;
+        width: 220px;
+        padding-bottom: 60px;
+    }
+}
+/* account-page-header-info */
+.account-page-header-info {
+    margin-top: 70px;
+    margin-left: 110px;
+    font-size: 37pt;
+    width: 650px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.82);
+    line-height: 50px;
+}
+@media(max-width: 900px) {
+    .account-page-header-info {
+        margin-top: 70px;
+        margin-left: 30px;
+        font-size: 34pt;
+        width: 70%;
+        font-weight: 700;
+        color: rgba(0, 0, 0, 0.82);
+        line-height: 50px;
+    }
+}
+/* account-page-header-detal */
+.account-page-header-detal {
+    padding: 40px;
+}
+.account-page-header-detal-box {
+    border: 1px solid rgba(0, 0, 0, 0.126);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+}
+.account-page-header-detal-box-title {
+    font-size: 20pt;
+    font-weight: 600;
+    width: 300px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.87);
+    height: 70px;
+}
+.account-page-header-detal-box-subtitle {
+    font-size: 13pt;
+    font-weight: 400;
+    width: 300px;
+    color: rgba(0, 0, 0, 0.82);
+    line-height: 25px;
+    margin-top: 0px;
+}
+@media(max-width: 1200px) {
+    .account-page-header-detal-box {
+        border: 1px solid rgba(0, 0, 0, 0.126);
+        border-radius: 15px;
+        padding: 15px;
+        margin: 10px;
+    }
+    .account-page-header-detal-box-title {
+        font-size: 18pt;
+        font-weight: 600;
+        width: 250px;
+        line-height: 30px;
+        color: rgba(0, 0, 0, 0.87);
+        height: 70px;
+    }
+    .account-page-header-detal-box-subtitle {
+        font-size: 13pt;
+        font-weight: 400;
+        width: 240px;
+        color: rgba(0, 0, 0, 0.82);
+        line-height: 25px;
+        margin-top: 0px;
+    }
+}
+@media(max-width: 900px) {
+    .account-page-header-detal {
+        padding: 20px;
+    }
+    .account-page-header-detal-box {
+        border: 1px solid rgba(0, 0, 0, 0.126);
+        border-radius: 15px;
+        margin-top: 20px;
+        padding: 15px;
+        margin: 10px;
+        width: 100%;
+    }
+    .account-page-header-detal-box-title {
+        font-size: 18pt;
+        font-weight: 600;
+        width: 100%;
+        line-height: 30px;
+        color: rgba(0, 0, 0, 0.87);
+        height: 70px;
+    }
+    .account-page-header-detal-box-subtitle {
+        font-size: 13pt;
+        font-weight: 400;
+        width: 100%;
+        color: rgba(0, 0, 0, 0.82);
+        line-height: 25px;
+        margin-top: 0px;
+    }
+}
+/* planning */
+.planning {
+    padding: 120px;
+}
+.planning-title {
+    font-size: 32pt;
+    font-weight: 700;
+    width: 670px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-bottom: 16px;
+    line-height: 40px;
+}
+.planning-subtitle {
+    font-size: 17pt;
+    font-weight: 500;
+    width: 400px;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 25px;
+    margin-top: 16px;
+}
+.plan-img {
+    height: 600px;
+}
+.tar-title {
+    font-size: 38pt;
+    font-weight: 600;
+    line-height: 55px;
+    margin-top: 36px;
+    width: 670px;
+}
+.tar-subtitle {
+    font-size: 18pt;
+    font-weight: 500;
+    line-height: 25px;
+    width: 500px;
+}
+@media(max-width: 1200px) {
+    .planning {
+        padding: 70px;
+    }
+    .planning-title {
+        font-size: 28pt;
+        font-weight: 700;
+        width: 470px;
+        color: rgba(0, 0, 0, 0.87);
+        margin-bottom: 16px;
+        line-height: 40px;
+    }
+    .planning-subtitle {
+        font-size: 17pt;
+        font-weight: 500;
+        width: 400px;
+        color: rgba(0, 0, 0, 0.87);
+        line-height: 25px;
+        margin-top: 16px;
+    }
+    .plan-img {
+        height: 600px;
+    }
+    .tar-title {
+        font-size: 38pt;
+        font-weight: 600;
+        line-height: 55px;
+        margin-top: 36px;
+        width: 670px;
+        margin-left: 60px;
+    }
+    .tar-subtitle {
+        font-size: 18pt;
+        font-weight: 500;
+        line-height: 25px;
+        margin-left: 60px;
+        width: 500px;
+    }
+}
+@media(max-width: 900px) {
+    .planning {
+        padding: 20px;
+    }
+    .planning-title {
+        font-size: 25pt;
+        font-weight: 700;
+        width: 100%;
+        color: rgba(0, 0, 0, 0.87);
+        margin-bottom: 16px;
+        line-height: 40px;
+        margin-top: 50px;
+    }
+    .planning-subtitle {
+        font-size: 17pt;
+        font-weight: 500;
+        width: 75%;
+        color: rgba(0, 0, 0, 0.87);
+        line-height: 25px;
+        margin-top: 16px;
+    }
+    .plan-img {
+        height: 500px;
+        margin-top: 30px;
+    }
+    .tar-title {
+        font-size: 28pt;
+        font-weight: 600;
+        line-height: 45px;
+        margin-top: 36px;
+        width: 95%;
+        text-align: right;
+        margin-left: 5px;
+    }
+    .tar-subtitle {
+        font-size: 15pt;
+        font-weight: 500;
+        line-height: 25px;
+        margin-left: 20px;
+        text-align: right;
+        width: 90%;
+    }
+}
+/* contact */
+.contact {
+    width: 100%;
+    height: 400px;
+}
+.contact-back {
+    margin-top: 140px;
+    background-image: url('../assets/backcontact.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+}
+.contact-padding {
+    padding: 100px;
+}
+.contact-title {
+    font-size: 35pt;
+    font-weight: 500;
+    line-height: 50px;
+    width: 800px;
+    text-align: center;
+}
+.contact-subtitle {
+    font-size: 18pt;
+    font-weight: 500;
+    line-height: 30px;
+    width: 700px;
+    text-align: center;
+}
+@media(max-width: 1200px) {
+    
+}
+@media(max-width: 900px) {
+    .contact-back {
+        margin-top: 60px;
+        background-image: url('https://nubank.com.br/_next/static/images/2874037f64d347de56c041c9c952b091-girl-holding-phone@3x.jpg.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 400px;
+    }
+    .contact-padding {
+        padding: 20px;
+    }
+    .contact-title {
+        font-size: 28pt;
+        font-weight: 500;
+        line-height: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    .contact-subtitle {
+        font-size: 14pt;
+        font-weight: 500;
+        line-height: 30px;
+        width: 100%;
+        text-align: center;
+    }
+}

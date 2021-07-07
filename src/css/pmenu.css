@@ -1,0 +1,74 @@
+.pmenu {
+    padding: 13px;
+    background: rgb(155, 6, 230);
+    width: 100%;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.159);
+}
+.pmenu-logo {
+    height: 40px;
+    margin-left: 20px;
+}
+.phome-user {
+    font-weight: 620;
+    font-size: 11pt;
+    color: white;
+    margin: auto;
+    margin-left: 40px;
+}
+.phome-ballance {
+    font-weight: 620;
+    font-size: 11pt;
+    color: white;
+    margin: auto;
+    margin-left: 40px;
+    width: 200px;
+}
+.span_ {
+    margin: auto;
+    margin-left: 5px;
+    font-weight: bold;
+}
+.phome-conf-home {
+    font-weight: 550;
+    font-size: 11pt;
+    color: white;
+    margin: auto;
+}
+.phome-conf-ballance {
+    font-weight: 550;
+    font-size: 11pt;
+    color: white;
+    margin: auto;
+    margin-left: 40px;
+}
+.phome-perfil {
+    font-weight: 720;
+    font-size: 11pt;
+    color: white;
+    margin: auto;
+    margin-left: 40px;
+}
+.icon-loggout {
+    color: white;
+    font-size: 25pt;
+    transition: 0.2s;
+    margin: auto;
+    margin-right: 20px;
+}
+.icon-loggout:hover, .phome-perfil:hover, .phome-conf-ballance:hover, .phome-conf-bahomellance:hover {
+    cursor: pointer;
+    transform: scale(1.0350);
+    transition: 0.2s;
+}
+.skeleton {
+    width: 80px;
+    color: white;
+    height: 8px;
+    margin-left: 5px;
+}
+.skeleton-b {
+    width: 40px;
+    height: 8px;
+    color: white;
+    margin-left: 5px;
+}

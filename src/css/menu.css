@@ -1,0 +1,135 @@
+.menu {
+    padding: 13px;
+    background: rgb(155, 6, 230);
+    width: 100%;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.159);
+}
+.logo {
+    height: 40px;
+    margin-left: 30px;
+    transition: 0.2s;
+}
+.menu-item {
+    margin: auto;
+    margin-left: 30px;
+    font-size: 10pt;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+    text-decoration: none;
+}
+.menu-item-login {
+    margin: auto;
+    margin-right: 30px;
+    font-size: 11pt;
+    font-weight: 600;
+    color: rgb(155, 6, 230);;
+    transition: 0.2s;
+    padding: 8px;
+    background: white;
+    text-decoration: none;
+    width: 150px;
+    border-radius: 60px;
+    text-align: center;
+}
+.menu-item:hover, .logo:hover {
+    transform: scale(1.0280);
+    transition: 0.2s;
+    color: white;
+    cursor: pointer;
+}
+.menu-item-login:hover {
+    color: rgb(155, 6, 230);;
+    transform: scale(1.0280);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+/* MOBILE */
+.menu-res {
+    /* padding: 13px;
+    background: rgb(155, 6, 230);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.159);
+    display: none; */
+}
+.logo-res {
+    display: none;
+}
+.register-mobile {
+    display: none;
+}
+.menu-mobile {
+    display: none;
+}
+@media (max-width: 900px) {
+    .menu {
+        padding: 0;
+        background: rgb(155, 6, 230);
+        width: 100%;
+        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.159);
+    }
+    .logo {
+        display: none;
+    }
+    .menu-item {
+        display: none;
+    }
+    .menu-item-login {
+        display: none;
+    }
+
+
+    .menu-res {
+        padding: 8px;
+        background: rgb(155, 6, 230);
+        width: 100%;
+        box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.159);
+        display: block;
+    }
+    .logo-res {
+        display: block;
+        /* margin-left: 10px; */
+        height: 30px;
+    }
+    .register-mobile {
+        display: block;
+        padding: 8px;
+        background: white;
+        color: rgb(155, 6, 230);
+        font-weight: 550;
+        font-size: 12pt;
+        text-align: center;
+        width: 150px;
+        border-radius: 60px;
+    }
+    .register-mobile:hover {
+        cursor: pointer;
+    }
+    .menu-mobile {
+        display: block;
+        color: white;
+        font-size: 20pt;
+        margin-right: 10px;
+    }
+    .menu-mobile:hover {
+        cursor: pointer;
+    }
+
+    .div-item {
+        margin-top: 30px;
+        width: 220px;
+    }
+    .box-menu-res {
+        margin-top: 40px;
+        padding: 30px;
+    }
+    .menu-item-res {
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.822);
+        font-weight: 550;
+    }
+    .menu-item-res:hover {
+        cursor: pointer;
+        color: rgba(0, 0, 0, 0.822);
+    }
+}
